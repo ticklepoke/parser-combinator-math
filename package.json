@@ -9,7 +9,9 @@
 		"access": "public"
 	},
 	"scripts": {
-		"lint:fix": "echo fixed"
+		"lint": "eslint src/**/*.ts",
+		"lint:fix": "eslint --fix src/**/*.ts",
+		"watch": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
 	},
 	"repository": "https://github.com/ticklepoke/parser-combinator-math.git",
 	"devDependencies": {
@@ -21,6 +23,7 @@
 		"husky": "^7.0.1",
 		"jest": "^27.0.6",
 		"lint-staged": "^11.0.1",
+		"nodemon": "^2.0.12",
 		"prettier": "^2.3.2",
 		"semantic-release": "^17.4.4",
 		"ts-jest": "^27.0.3",
