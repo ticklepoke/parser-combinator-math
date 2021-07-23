@@ -2,7 +2,7 @@
 
 An arithmetic parser built with parser combinators in typescipt, based on [Parsimmon](https://github.com/jneen/parsimmon). This project is based on the [math example](https://github.com/jneen/parsimmon/blob/master/examples/math.js) in Parsimmon's repository.
 
-This library converts basic arithmetic equations into an AST. Refer to Grammar for the supported syntax.
+This library converts basic arithmetic equations into an AST. Refer to [Grammar](#grammar) for the supported syntax.
 
 Note: This library does not evaluate arithmetic expressions. It only converts a string into a well-typed AST representation.
 
