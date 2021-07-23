@@ -24,7 +24,7 @@ const ast = MathParser.tryParse('1+1');
 
 ## Background
 
-Parser combinators are complex parsers that are built from simpler, base parsers. Each base parser is responsible for parsing a subset of the language. The base parsers can then be combined in various effectful ways to capture the semantics of the language is trying to parse.
+Parser combinators are complex parsers that are built from simpler, base parsers. Each base parser is responsible for parsing a subset of the language. The base parsers can then be combined in various effectful ways to capture the semantics of the language to be parsed.
 
 Parser combinators can be viewed as the "informal, less academic" cousin of LL(n), LR(n), LALR(n) parsers due to their flexibility of usage.
 
